@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./jy.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<style>
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+    html{
+    width: 100%;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+     display: flex;
+     padding: 9px;
+     background-color: #000;
+     color: #fff;
+}
+
+.navbar{
+    padding-left: 50px;
+    font-size: small    ;
+}
+
+ul{
+    display: flex;
+    padding: 6px;
+    padding-left: 50px;
+    font-size: x-small;
+}
+
+li{
+    list-style: none;
+    padding-left: 17px;
+    padding-top: 3px;
+}
+
+.btn{
+    gap: 10px;
+    display: flex;
+    padding-left: 23px;
+}
+.button-1{
+    font-size: xx-small;
+    display: ;
+    border-radius: 300px;
+    width: 90px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+   
+}
+
+.button-2{
+    font-size: xx-small;
+    border-radius: 300px;
+    width: 90px;
+    border: none;
+    background-color: #ff0000;
+    color: #ded8cc;
+}
+i{
+    background-color: #fff;
+    color:  #ff0000;
+    border-radius: 70px;
+    width: 20px;
+    padding-left: 6px;
+    padding-right: 11px;
+    
+}
+
+.content-items img{
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+
+.container-2{
+    background-color: #000;
+    color: #ded8cc;
+    padding: 45px;
+}
+
+.text-cen{
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+.description{
+    font-size: x-small;
+    color: lightblue;
+}
+
+
+.container-3{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    gap: 5px;
+    /* justify-content: space-between;
+    gap: 50px; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    width: 30%;
+    height: 20vh; */
+    
+}
+
+
+
+.banner-1{
+    background-color: #000;
+    
+
+}
+.banner-2{
+    background-color:#000;
+    
+
+}
+.banner-3{
+    background-color: #000;
+        
+}
+
+.img-1{
+ background-color: #fff;
+ width: 85%;
+ height: 20vh;
+ padding: 10px;
+
+}
+
+.img-2{
+background-color: #fff;
+width: 85%;
+height: 20vh;
+padding: 10px;
+}
+
+.img-3{
+background-color: #fff;
+width: 85%;
+height: 20vh;
+padding: 10px;
+}
+
+
+
+.banner-button-1{
+    font-size: xx-small;
+    border-radius: 300px;
+    width: 70px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    justify-content: center;
+    position: relative;
+
+    left: 27px;
+}
+
+.banner-button-2{
+    font-size: xx-small;
+    border-radius: 300px;
+    width: 70px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+
+    left: 27px;
+    
+}
+
+.banner-button-3{
+    font-size: xx-small;
+    border-radius: 300px;
+    width: 70px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    position: relative;
+
+    left: 27px;
+}
+
+.container-4{
+    background-color:#161616;
+    color: #fff;
+    padding: 45px;
+}
+
+.branches{
+    padding: 30px;
+    display: flex;
+}
+.brand-1{
+    font-size: xx-small;
+    padding-top: 8px;
+
+    
+}
+
+.under-branch{
+    padding: 2px;
+    color: #ff0000;
+    word-space: 2px;
+    font-size: small;
+}
+
+.phone-logo{
+     padding-top: 10px;
+     font-size: x-small; 
+     ;
+}
+
+.direction{
+    padding-top: 10px;
+    font-size: x-small;
+
+    
+}
+
+.direct{
+    font-size: xx-small;
+    border: none;
+    border-radius: 200px;
+    width: 110px;
+    padding: 8px;
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+    position: relative;
+
+    top: 100px;
+    right: 330px;
+
+}
+
+.branch-2 img{
+    width: 90%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+
+.img-branch{
+   
+    position: relative;
+
+    left: 300px;
+    bottom: 100px;
+   
+}
+
+.container-5{
+    background-color:#161616;
+    width: 100;
+    position: relative;
+
+    bottom: 120px;
+    padding: 30px;
+    display: flex;
+}
+
+.image-box{
+    width: 80%;
+    height: 70vh;
+    background-size: cover;
+    background-position: ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;   
+}
+
+.image-box-shadow{
+    width: 53%;
+    height: 50vh;
+    position: relative;
+
+    bottom: 40px;
+    left: 30px;
+}
+
+.fais-branch{
+    position: relative;
+
+    bottom: 230px;
+    left: 350px;
+}
+
+.color-set{
+    color: #ff0000;
+    position: relative;
+
+    font-size: small;
+    
+}
+.karma{
+    font-size: large;
+    color: rgb(252, 242, 242);
+    position:relative;
+    top: 2px;
+}
+
+.width-set{
+    font-size: x-small;
+    position: relative;
+
+    top: 9px;
+    left: 7px;
+    color: rgb(208, 189, 166);
+}
+
+.font-set{
+    position: relative;
+
+    top: 13px;
+    font-size: x-small;
+    left: 5px;
+    color: rgb(208, 189, 166);
+}
+
+.jab-we-met{
+    position: relative;
+
+    left: 7px;
+    top: 30px;
+    border-radius: 300px;
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #000;
+    color: #ded8cc;
+    font-size: x-small;
+    
+}
+
+.container-6{
+    background-color: #161616;
+}
+
+.shadows{
+    position: relative;
+
+    bottom: 230px;
+    background-color: #161616;
+}
+
+.shadow-1{
+    position: relative;
+
+    left: 55px;
+    color: #ff0000;
+}
+
+.shadow-2{
+    position: relative;
+
+    left: 55px;
+    top: 5px;
+    color: #ded8cc;
+}
+.shadow-3{
+    position: relative;
+
+    left: 55px;
+    top: 9px;
+    color: #ded8cc;
+    font-size: x-small;
+}
+
+.shadow-4{
+    
+        position: relative;
+
+        left: 55px;
+        top: 15px;
+        color: #ded8cc;
+        font-size: x-small;   
+}
+
+.shadow-5{
+    position: relative;
+
+    left: 200px;
+    width: 60%px;
+    height: ;
+}
+.shadow-6{
+    width: 40%;
+    height: 48vh;
+    position: relative;
+
+    left: 165px;
+    bottom: 75px;
+}
+
+.shadow-7{
+    position: relative;
+
+    bottom: 380px;
+    left: 55px;
+}
+
+.shadow-8{
+    background-color: #000;
+    color: #ded8cc;
+    border: 1px solid #fff;
+    border-radius: 300px;
+    width: 110px;
+    padding: 9px;
+    font-size: xx-small;
+};
+
+.container-7{
+    padding: 10px;
+}
+
+.one-1{
+    text-align: center;
+    color: #ded8cc;
+    position: relative;
+
+    bottom: 290px;
+    font-size: 25px;
+}
+
+.one-2 img{
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    bottom: 270px;
+    text-align: center;  
+    left: 90px;  
+    padding: 5px;
+}
+
+.one-3{
+    display: flex;
+    position: relative;
+
+    bottom: 250px;
+    text-align: center;
+}
+.one-4{
+    position: relative;
+
+    left: 90px;
+    bottom: 10px;
+    font-size: x-small;
+    color: #fff;
+    
+}
+
+.one-7{
+    color: #ff0000;
+    position: relative;
+
+    bottom: 10px;
+}
+.one-8{
+    position: relative;
+
+    font-size: medium;
+    bottom: 7px;
+
+}
+
+.one-9 ,.one-10{
+    color: lightgray;
+}
+
+.one-5{
+    position: relative;
+
+    left: 90px;
+    bottom: 10px;
+    font-size: x-small;
+    color: #fff;
+}
+.one-11{
+    color: #ff0000;
+    position: relative;
+
+    bottom: 10px;
+    left: 30px;
+}
+.one-12{
+    position: relative;
+
+    left: 30px;
+    font-size: medium;
+    bottom: 8px;
+}
+.one-13 , .one-14{
+    position: relative;
+
+    left: 20px;
+}
+
+.one-6{
+    position: relative;
+
+    bottom: 20px;
+    left: 120px;
+    font-size: x-small;
+    color: lightgrey;
+}
+.one-15{
+    color: #ff0000;
+}
+.one-16{
+    position: relative;
+
+    font-size: medium;
+}
+.one-17 , .one-18{
+    font-size: x-small;
+    position: relative;
+
+    top: 7px;
+}
+
+.one-19{
+    position: relative;
+
+    left: 120px;
+    bottom: 245px;
+    font-size: x-small;
+
+}
+.one-20{
+    position: relative;
+
+    left: 320px;
+    bottom: 280px;
+    font-size: x-small;
+}
+.one-21{
+    position: relative;
+
+    left: 530px;
+    bottom: 315px;
+    font-size: x-small;
+}
+
+.two-1 img{
+    text-align: center;
+    position: relative;
+
+    bottom: 270px;
+    left: 85px;
+    padding: 5px;
+}
+
+.two-2 , .two-3 , .two-4{
+    text-align: center;
+}
+
+.two-2{
+    position: relative;
+
+    bottom: 270px;
+    right: 200px;
+    font-size: x-small;
+    color: #ffffff;
+}
+
+.two-5{
+    color: #ff0000;
+    font-size: small;
+}
+.two-6{
+    position: relative;
+
+    top: 5px;
+    font-size: medium;
+    right: 15px;
+}
+.two-7 , .two-8{
+    position: relative;
+
+    top: 7px;
+    right: 35px;
+}
+
+.two-3{
+    position: relative;
+
+    bottom: 340px;
+    left: 20px;
+    font-size: x-small;
+    color: #ffffff;
+}
+
+.two-9{
+    color: #ff0000;
+    font-size: small;
+    position: relative;
+
+    right: 20px;
+    
+}
+.two-10{
+    position: relative;
+
+    top: 5px;
+    font-size: medium;
+    right: 20px;
+}
+.two-11 , .two-12{
+    position: relative;
+
+    top: 7px;
+    left: 17px;
+
+}
+
+.two-4{
+    position: relative;
+
+    bottom: 340px;
+    left: 250px;
+    font-size: x-small;
+    color: #ffffff;
+}
+
+.two-13{
+    color: #ff0000;
+    font-size: small;
+    position: relative;
+
+    bottom: 75px;
+    right: 50px;
+    
+}
+.two-14{
+    position: relative;
+
+    font-size: medium;
+    right: 40px;
+    bottom: 70px;
+}
+.two-15 , .two-16{
+    position: relative;
+
+    bottom: 70px;
+    right: 20px;
+
+}
+
+.two-17 {
+    position: relative;
+
+    bottom: 390px;
+    left: 100px;
+
+}
+
+.two-18{
+    text-align: center;
+    position: relative;
+
+    bottom: 425px;
+    left: 0px;
+
+}
+
+.two-19{
+    text-align: center;
+    position: relative;
+
+    bottom: 460px;
+    left: 220px;
+
+}
+
+.three-1 img{
+    position: relative;
+
+    text-align: center;
+    bottom: 430px;
+    padding: 5px;
+    left: 75px;
+}
+
+.three-2, .three-3 , .three-4{
+    text-align: center;
+
+}
+
+.three-2{
+     position: relative;
+
+     bottom: 430px;
+     right: 220px;
+     font-size: x-small;
+     color: #ded8cc;
+}
+.three-5{
+    color: #ff0000;
+
+}
+.three-6{
+    position: relative;
+
+    top: 2px;
+    font-size: medium;
+}
+.three-7 ,{
+    position: relative;
+
+    top: 3px;
+    right: 15px;
+}
+.three-8{
+    position: relative;
+
+    bottom: 2px;
+}
+.three-9{
+    position: relative;
+
+    top: 3px;
+}
+
+.three-3{
+    position: relative;
+
+    bottom: 513px;
+    right: 10px;
+    font-size: x-small;
+    color: #ded8cc;
+}
+.three-10{
+    color: #ff0000;
+}
+.three-11{
+    position: relative;
+
+    font-size: medium;
+}
+.three-13{
+       position: relative;
+
+       top: 4px
+}
+
+.three-4{
+    position: relative;
+
+    bottom: 579px;
+    left: 215px;
+    font-size: x-small;
+    color: #ded8cc;
+}
+.three-14{
+    color: #ff0000;
+}
+.three-15{
+    position: relative;
+
+    font-size: medium;
+    top: 1px;
+}
+.three-18{
+    position: relative;
+
+    top: 2px;
+}
+.three-19{
+    position: relative;
+
+    bottom: 565px;
+    left: 100px;
+}
+
+.three-20{
+    position: relative;
+
+    bottom: 605px;
+    left: 310px;
+}
+
+.three-21{
+    position: relative;
+
+    bottom: 630px;
+    left: 555px;
+}
+
+.four-1{
+    text-align: center;
+    position: relative;
+
+    bottom: 600px;
+    right: 20px;
+}
+.four-2{
+    text-align: center;
+    position: relative;
+
+    bottom: 585px;
+    right: 20px;
+    color: #fff;
+    font-size: small;
+
+}
+
+.four-3{
+    color: #ff0000;
+}
+
+.four-4{
+    font-size: medium;
+    position: relative;
+
+    top: 3px;
+}
+.four-5 , .four-6{
+    font-size: x-small;
+    position: relative;
+
+    top: 10px;
+}
+
+.four-7{
+    position: relative;
+
+    left: 320px;
+    bottom: 560px;
+}
+
+.five-1{
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+
+    bottom: 500px;
+    color: #ffffff;
+}
+
+.five-2{
+    position: relative;
+
+    bottom: 460px;
+    
+}
+.five-3{
+    position: relative;
+
+    left: 440px;
+    font-size: x-small;
+    bottom: 200px;
+}
+.five-4{
+    color: #ff0000;
+    font-size: small;
+}
+.five-5{
+    font-size: medium;
+    color: #ffffff;
+    top: 3px;
+}
+.five-6 , .five-7{
+    position: relative;
+
+    top: 4px;
+    font-size: xx-small;
+    color: lightblue;
+}
+
+.five-8{
+    position: relative;
+
+    bottom: 180px;
+    left: 438px;   
+}
+
+.container-11{
+    
+
+}
+
+.six-1{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+
+    bottom: 530px;
+    font-size: 20px;
+}
+
+.six-2 img{
+    position: relative;
+
+    bottom: 500px;
+    left: 10px;
+    padding: 5px;
+}
+
+.seven-1{
+    position: relative;
+
+    bottom: 470px;
+    font-size: xx-small;
+    color: #90ee90;
+    left: 40px;
+
+}
+
+.seven-2{
+    font-size: medium;
+    color:#fff;
+    position: relative;
+
+    bottom: 20px;
+}
+.seven-3{
+    color: #ff0000;
+    position: relative;
+
+    bottom: 20px;
+    font-size: small;
+}
+
+
+.seven-4{
+    position: relative;
+
+    top: 10px;
+    font-size: small;
+    color: #ffffff;
+}
+
+.seven-5 p{
+    color: #ffffff;
+    position: relative;
+
+    bottom: 630px;
+    left: 320px;
+    padding: 7px;
+    font-size: x-small;
+}
+
+.seven-6 p{
+    color: #ffffff;
+    position: relative;
+
+    text-align: center;
+    bottom: 810px;
+    font-size: x-small;
+    left: 150px;
+    padding: 5px;
+}
+
+</style>
+
+<script src="./app.js"></script>
+</head>
+
+<body>
+<!-- <div class="main-div"> -->
+    <div class="container">
+        <div class="navbar">
+            <h2>Salt'n Pepper</h2>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Publications</li>
+                <li>Feedback</li>
+            </ul>
+        </div>
+
+        <div class="btn">
+            <button class="button-1">Get a Franchise</button>
+            <button  class="button-2">Order Online<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+
+    
+        <div class="content-items">
+            <img src="https://static.tossdown.com/images/6772b71e-4241-4d7f-a671-d20300ed8ff0.webp" alt="">
+        </div>
+    
+
+        <div class="container-2">
+            <div class="text-cen">
+                <p><b>Salt'n Pepper</b></p>
+                <p>Restaurants! Our Brands</p>
+                <p class="description">Please click our brands below for further information, reservations or to order online!</p>
+            </div>
+        </div>
+
+        <div class="container-3">
+            
+
+            <div class="banner-1">
+                <img class="img-1" src="https://static.tossdown.com/site/8a66dd76-03d2-4b71-8d03-cf045f0248a7.webp">
+                <br>
+                <button class="banner-button-1">Order Now</button>
+            </div>
+            
+            <div class="banner-2">
+                <img class="img-2" src="https://static.tossdown.com/site/9d9cb355-ac8c-404e-a608-c28242343cd1.webp">
+                <br>
+                <button class="banner-button-2">Order Now</button>
+            </div>
+            
+            <div class="banner-3">
+                <img class="img-3" src="https://static.tossdown.com/site/f9238d0e-7c34-4139-a081-c57b7713628e.webp">
+                <br>
+                <button class="banner-button-3">Order Now</button>
+            </div>
+            
+        </div>
+
+        <div class="container-4">
+            <div class="text-cen">
+                <p><b>Salt'n Pepper</b></p>
+                <p>Restaurant Franchises</p>
+                <p class="description">Each of our franchises are individually managed. For further details, kindly contact them directly</p>
+            </div>
+
+            <div class="branches">
+                <div class="branch-1">
+                    <P class="under-branch">ISLAMABAD</P>
+                    <P><b>Salt'n Pepper </b>Restaurant</P>
+                    <p class="brand-1">Plot # 55, Shabbir Plaza, Blue  Area, F-6, Islamabad</i></p>
+                    <p class="phone-logo"><i class="fa-solid fa-phone"></i>Ph: 051-2604904-6</p>
+
+                    <div class="branch-2">
+                       <img class="img-branch" src="https://images-beta.tossdown.com/site/7aba8915-02ed-46ee-bd96-1063abe072fa.webp" alt="">
+                    </div>
+                </div>
+                <div class="direction">
+                <button class="direct">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="container-5">
+            <div class="image-box">
+                <img class="image-box-shadow" src="https://images-beta.tossdown.com/site/11771dbf-36a1-4684-a55e-18af61e0f77c.webp" alt="">
+
+                <div class="fais-branch">
+                    <p class="color-set">Faisalabad</p>
+                    <p class="karma"><b>Salt'n Pepper</b> <span>Restaurant</span></p>
+                    <p class="width-set">4- Kohinoor City,Faisalabad</i></p>
+                    <p class="font-set"><i class="fa-solid fa-phone"></i>Ph: 041-87119404</p>
+
+                    <button class="jab-we-met">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+
+
+            </div>
+               
+           </div>
+        </div>
+
+        <div class="container-6">
+            <div class="shadows">
+                <P class="shadow-1">BAHAWALPUR
+                </P>
+                <P class="shadow-2"><b>Salt'n Pepper </b>Restaurant</P>
+                <p class="shadow-3"> D.C Chowk, opposite Commissioner House, Bahawalpur
+                </p>
+                <p class="shadow-4"><i class="fa-solid fa-phone"></i> Ph: 062-2740271-2</p>
+
+                <div class="shadow-5">
+                   <img class="shadow-6" src="https://images-beta.tossdown.com/site/b2f78afe-11e4-4af5-8aef-cff9c2908614.webp" alt="">
+                </div>
+            </div>
+            <div class="shadow-7">
+            <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+        <div class="container-7">
+            <div class="one-1">
+                <p><b>Salt'n Pepper</b></p>
+                <p>Express Franchises</p>
+            </div>
+
+            <div class="one-2">
+                <img width="25%" src="https://images-beta.tossdown.com/site/5653706f-83e4-42bb-99f9-4a64e9a1101a.webp" alt="">
+              
+
+                <img width="25%" src="https://static.tossdown.com/images/9f2b5abf-88a1-4f49-9f98-c3dfee664e40.webp" alt="">
+
+                <img width="25%" src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp" alt="">
+                
+                <div class="one-3">
+                    <div class="one-4">
+                    <p class="one-7">EMPORIUM MALL</p>
+                    <p class="one-8"><b>Salt'n Pepper</b> Express</p>
+                    <p class="one-9">2nd floor,Food Court Emporium Mall</p>
+                    <p class="one-10">Ph: 0311-1100947</p>
+
+                    </div>
+                   <div class="one-5">
+                    <p class="one-11">GUJRANWALA</p>
+                    <p class="one-12"><b>Salt'n Pepper</b> Express</p>
+                    <P class="one-13">Sixteenth Avenue Mall</P>
+                    <p class="one-14">Ph: 0300 6024000</p>
+                   </div>
+
+                     <div class="one-6">
+                        <p class="one-15">SARGODHA</p>
+                        <p class="one-16"><b>Salt'n Pepper</b> Express</p>
+                        <p class="one-17">Opposite Sargodha Arts Council Babar Road</p>
+                        <p class="one-18">Ph: (048) 3725500</p>
+                     </div>    
+                    </div>
+                </div>
+                <div class="shadow-7 one-19">
+                    <button class="shadow-8 ">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div class="shadow-7 one-20">
+                    <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+                <div class="shadow-7 one-21">
+                    <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+        </div>
+
+        <div class="container-8">
+            <div class="two-1">
+                <img width="25%" src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+
+                <img width="25%" src="https://static.tossdown.com/images/31b37f0c-5936-4232-a55e-8042c2656526.webp" alt="">
+
+                <img width="25%" src="https://static.tossdown.com/images/2b5877b5-ca49-4161-a30e-752ddce91595.webp" alt="">
+            </div>
+            <div class="two-2">
+                <p class="two-5">JHELUM</p>
+                <p class="two-6"><b>Salt'n Pepper</b> Express</p>
+                <p class="two-7"> Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum,</p>
+                <p class="two-8">Ph: 0307 7675555</p>
+            </div>
+
+            <div class="two-3">
+                <p class="two-9">FAISAL TOWN</p>
+                <p class="two-10"><b>Salt'n Pepper</b> Express</p>
+                <p class="two-11"> 34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                <p class="two-12">Ph: 042-111-100-678</p>
+            </div>
+
+            <div class="two-4">
+                <p class="two-13">DHA</p>
+                <p class="two-14"><b>Salt'n Pepper</b> Express</p>
+                <p class="two-15"> 93-Y Phase III, DHA,Lahore</p>
+                <p class="two-16">Ph: 042-111-100-678</p>
+            </div>
+
+            <div class="shadow-7 two-17">
+                <button class="shadow-8 ">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="shadow-7 two-18">
+                <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="shadow-7 two-19">
+                <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container-9">
+            <div class="three-1">
+                <img width="25%" src="https://static.tossdown.com/images/0cdc03af-9732-4d0c-9174-f4e66953b3c8.webp" alt="">
+
+                <img width="25%" src="https://static.tossdown.com/images/a860f757-114b-4453-ba86-f7b24dc0f24e.webp" alt="">
+
+                <img  width="30%" src="https://static.tossdown.com/site/6b8657b7-91ec-4e06-a06c-5cad0d70606d.webp" alt="">
+            </div>
+
+            <div class="three-2">
+                <p class="three-5">BAHRIA TOWN</p>
+                <p class="three-6"><b>Salt'n Pepper</b> Express</p>
+                <p class="three-7">Arwa Heights Building 19 Nishtar Block, Sector E,</p>
+                <p class="three-8">Bahria Town Lahore</p>
+                <p class="three-9">Ph: 042-111-100-678</p>
+            </div>
+
+            <div class="three-3">
+                <p class="three-10">GUJAR KHAN</p>
+                <p class="three-11"><b>Salt'n Pepper</b> Express</p>
+                <p class="three-12"> New Metro City Gujar Khan</p>
+                <p class="three-13">Ph: 032-111-14-962</p>
+            </div>
+
+            <div class="three-4">
+                <p class="three-14">LAHORE</p>
+                <p class="three-15"><b>Salt'n Pepper</b> Express</p>
+                <p class="three-16"> Shop no.5, Arcade Block, Fortress Stadium,</p>
+                <p class="three-17">Lahore</p>
+                <p class="three-18">Ph: 04236623100</p>
+            </div>
+            <div class="shadow-7 three-19">
+                <button class="shadow-8 ">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="shadow-7 three-20">
+                <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="shadow-7 three-21">
+                <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container-10">
+            <div class="four-1">
+                <img width="27%" src="https://static.tossdown.com/images/bbac9f4a-2970-4bc4-b8a1-541857d96e79.webp" alt="">
+            </div>
+            <div class="four-2">
+                <p class="four-3">GUJRAT</p>
+                <p class="four-4"><b>Salt'n Pepper</b> Express</p>
+                <p class="four-5">Service Mor, Gujrat</p>
+                <p class="four-6">Ph: 0311-1124600</p>
+            </div>
+
+            <div class="shadow-7 four-7">
+                <button class="shadow-8">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+
+        <div class="container-10">
+            <div class="five-1">
+                <p><b>Salt'n Pepper</b></p>
+                <p>Village Franchise</p>
+            </div>
+
+            <div class="five-2"> 
+                <img width="55%" src="https://images-beta.tossdown.com/site/0df39a08-2dca-4998-adda-4ca66b1132cb.webp" alt="">
+                <div class="five-3">
+                    <p class="five-4">GUJRANWALA</p>
+                    <p class="five-5"><b>Salt'n Pepper</b> Village</p> 
+                    <p class="five-6"> Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</p>
+                    <p class="five-7"> Ph: 055-3884500 l ,055-3880400</p>
+                </div>
+                 <div class="shadow-7 five-8">
+                    <button class="shadow-8 five-9">Get Directions<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>   
+        </div>
+
+        <div class="container-11">
+            <div>
+                <p class="six-1">Social Feed</p>
+            </div>
+
+            <div class="six-2">
+                <img width="23%" src="https://static.tossdown.com/images/0e1296ae-9bcd-493a-a13f-81bd0a376fbb.webp" alt="">
+
+                <img width="23%" src="https://static.tossdown.com/images/0e1296ae-9bcd-493a-a13f-81bd0a376fbb.webp" alt="">
+
+                <img width="23%" src="https://static.tossdown.com/images/2741f491-d49f-4ec1-9de3-4df086748b54.webp" alt="">
+
+                <img width="23%" src="https://static.tossdown.com/images/b75b70d0-122d-4754-99a5-2ff3e0905144.webp" alt="">
+
+       </div>   
+        </div>
+
+        <div>
+            <div class="seven-1">
+                <p class="seven-2"><b>Salt'n Pepper</b></p>
+                <p class="seven-3">Restaurant</p>
+
+                <p>The Salt’n Pepper Restaurants are an example <br>of gracious dinning, outstanding service, extraordinary<br> classic and contemporary cuisine. The restaurants<br> have become the ultimate dinning destinations in<br> Lahore. From family occasions to business dinner<br> and moments of the heart, this place is where<br> unforgettable memories are made.
+
+                </p>
+
+                 <p class="seven-4">Terms & conditions Privacy policy</p>
+            </div>
+            <div class="seven-5">
+                
+                    <p>Site Links</p>
+                    <p>Home</p>
+                    <p>About Us</p>
+                    <p>Publications</p>
+                    <p>Get a Franchise</p>
+                    <p>Feedback</p>
+                
+            </div>
+
+            <div class="seven-6">
+                <p>Contact Us
+                </p>
+                <p>+92 42 358 509 31 (Head Office)
+                </p>
+                <p>+92 42 358 509 30 (Head Office)</p>
+                <p>+92 42 111 100 678 (Delivery)</p>
+                <p>+92 03 111 444 610 (Delivery)</p>
+                <p>snpfood@brain.net.pk</p>
+                <p>23-Usman Block, New<br> GardenTown, Lahore, Pakistan</p>
+            
+            </div>
+        </div>
+   
+  
+
+    
+
+</body>
+</html>
